@@ -1,0 +1,77 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Page</title>
+    
+</head>
+<body>
+    <div class="imageBg">
+        <p>Learn From Home</p>
+        <p class="e-courses">Educational Courses</p>
+
+        <div class="searchBox">
+            <span>Course</span>
+            <input type="text" placeholder="Keyword">
+            <span class="searchBtn">Search</span>
+        </div>
+    </div>
+</body>
+</html>*{
+    margin: 5;
+    padding: 2;
+}
+body{
+    width: 70%;
+    height: 90%;
+}
+.imageBg {
+    background: 
+        linear-gradient(rgba(0, 0, 255, 0.863), rgba(0, 0, 255, 0.575)),
+        url(https://kericho.chuitechsolutions.com/static/leaders_images/10_09_2022_02_35_30pm_benjamin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    height: 300px;
+    position: relative;
+    color: white;
+}
+
+
+.imageBg p {
+    position: relative;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.e-courses{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.imageBg div {
+    position: relative;
+    z-index: 2;
+}
+
+.searchBox{
+    background-color: white ;
+    padding: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border: none;
+}
+
+.searchBtn{
+    background-color: rgb(211, 24, 55);
+    color: white;
+    padding: 10px 20px;
+}
